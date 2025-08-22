@@ -283,8 +283,8 @@ const LargeForm = () => {
             {...register("zipCode", {
               required: "Zip Code is required",
               pattern: {
-                value: /^\d{5}(-\d{4})?$/,
-                message: "Invalid Zip Code format (e.g., 12345 or 12345-6789)",
+                value: /^\d{6}(-\d{5})?$/,
+                message: "Invalid Zip Code format (e.g., 123456 or 12345-6789)",
               },
             })}
             style={{
