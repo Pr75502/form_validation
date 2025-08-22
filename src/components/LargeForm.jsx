@@ -180,7 +180,7 @@ const LargeForm = () => {
             <option value="Canada">Canada</option>
             <option value="UK">United Kingdom</option>
             <option value="Australia">Australia</option>
-            <option value="India">Other</option>
+            <option value="India">India</option>
             <option value="Other">Other</option>
           </select>
           {errors.country && (
